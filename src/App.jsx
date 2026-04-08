@@ -377,7 +377,7 @@ export default function PawanModiAgencyPortfolio() {
                 <p className="text-xs uppercase tracking-[0.45em] text-white/45">Contact</p>
                 <h3 className="mt-4 font-serif text-4xl md:text-5xl">Let’s build experiences that leave a mark.</h3>
                 <p className="mt-5 max-w-2xl text-base leading-8 text-white/72">
-                  This website can be expanded into a full portfolio with project case studies, animations, moodboards, event films, and presentation-style storytelling sections.
+                 Let's Connect!
                 </p>
               </div>
               <div className="grid gap-3 text-sm uppercase tracking-[0.2em] text-white/80">
