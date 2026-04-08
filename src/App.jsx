@@ -1,5 +1,4 @@
-app_code = r'''import { useEffect, useRef, useState } from 'react';
-import { Bot, Box, Clapperboard, Lightbulb, MonitorPlay, PenTool, Presentation, Sparkles } from 'lucide-react';
+import { useEffect, useRef, useState } from 'react';
 
 export default function PawanModiAgencyPortfolio() {
   const [activeStoryStep, setActiveStoryStep] = useState(0);
