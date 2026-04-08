@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { Bot, Box, Clapperboard, Lightbulb, MonitorPlay, PenTool, Presentation, Sparkles } from 'lucide-react';
 
 export default function PawanModiAgencyPortfolio() {
   const [activeStoryStep, setActiveStoryStep] = useState(0);
@@ -737,13 +738,13 @@ export default function PawanModiAgencyPortfolio() {
 
         <section className="px-6 py-12 md:px-10 lg:px-16 lg:py-16">
           <div className="mx-auto grid max-w-7xl gap-6 lg:grid-cols-3">
-            <div className="reveal-up rounded-[30px] border border-black/10 bg-white/70 p-7 shadow-[0_14px_40px_rgba(0,0,0,0.05)]">
+            <div className="reveal-up apple-card rounded-[30px] border border-black/10 bg-white/70 p-7 shadow-[0_14px_40px_rgba(0,0,0,0.05)]">
               <p className="text-xs uppercase tracking-[0.35em] text-black/45">Education</p>
               <h4 className="mt-4 font-serif text-2xl">Bachelor of Computer Applications (BCA)</h4>
               <p className="mt-3 leading-7 text-black/65">IGNOU, New Delhi</p>
             </div>
 
-            <div className="reveal-up rounded-[30px] border border-black/10 bg-[#efe4db] p-7 shadow-[0_14px_40px_rgba(0,0,0,0.05)]" style={{ animationDelay: '0.08s' }}>
+            <div className="reveal-up apple-card rounded-[30px] border border-black/10 bg-[#efe4db] p-7 shadow-[0_14px_40px_rgba(0,0,0,0.05)]" style={{ animationDelay: '0.08s' }}>
               <p className="text-xs uppercase tracking-[0.35em] text-black/45">Languages</p>
               <div className="mt-4 space-y-5">
                 <div>
@@ -757,7 +758,7 @@ export default function PawanModiAgencyPortfolio() {
               </div>
             </div>
 
-            <div className="reveal-up rounded-[30px] border border-black/10 bg-white/70 p-7 shadow-[0_14px_40px_rgba(0,0,0,0.05)]" style={{ animationDelay: '0.16s' }}>
+            <div className="reveal-up apple-card rounded-[30px] border border-black/10 bg-white/70 p-7 shadow-[0_14px_40px_rgba(0,0,0,0.05)]" style={{ animationDelay: '0.16s' }}>
               <p className="text-xs uppercase tracking-[0.35em] text-black/45">Certifications</p>
               <div className="mt-4 space-y-4 leading-7 text-black/70">
                 <p>Digital Marketing – Udemy</p>
@@ -774,7 +775,7 @@ export default function PawanModiAgencyPortfolio() {
                 <p className="text-xs uppercase tracking-[0.45em] text-white/45">Contact</p>
                 <h3 className="mt-4 font-serif text-4xl md:text-5xl">Let’s build experiences that leave a mark.</h3>
                 <p className="mt-5 max-w-2xl text-base leading-8 text-white/72">
-                  Let’s collaborate to craft high-impact, story-driven experiences — from concept to execution.
+                   Let’s collaborate to craft high-impact, story-driven experiences — from concept to execution.
                 </p>
               </div>
               <div className="grid gap-3 text-sm uppercase tracking-[0.2em] text-white/80">
@@ -829,8 +830,3 @@ export default function PawanModiAgencyPortfolio() {
     </div>
   );
 }
-'''
-path = '/mnt/data/final_App.jsx'
-with open(path, 'w', encoding='utf-8') as f:
-    f.write(app_code)
-print(path)
